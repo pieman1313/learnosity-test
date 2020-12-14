@@ -8,7 +8,8 @@ module.exports = {
     context: appDir,
     entry: {
         question: './question.js',
-        scorer: './scorer.js'
+        scorer: './scorer.js',
+        combined: './combined.js',
     },
     output: {
         path: distDir,
